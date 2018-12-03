@@ -1,8 +1,8 @@
-package com.example.nizar.swoosh
+package com.example.nizar.swoosh.Controller
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.nizar.swoosh.R
 import kotlinx.android.synthetic.main.activity_welcome.*
 
 class WelcomeActivity : BaseActivity() {
@@ -12,7 +12,7 @@ class WelcomeActivity : BaseActivity() {
         setContentView(R.layout.activity_welcome)
 
         get_started_button.setOnClickListener {
-            val leagueInt = Intent(this,LeagueActivity::class.java)
+            val leagueInt = Intent(this, LeagueActivity::class.java)
             startActivity(leagueInt)
         }
 

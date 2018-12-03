@@ -1,4 +1,4 @@
-package com.example.nizar.swoosh
+package com.example.nizar.swoosh.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
